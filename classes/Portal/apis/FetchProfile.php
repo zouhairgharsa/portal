@@ -11,7 +11,7 @@
 class Portal_FetchProfile_API extends Portal_Default_API {
 
 	protected $allowedFields = array(
-		'contactFields' => array('contact_no','firstname', 'lastname', 'email', 'secondaryemail', 'mobile', 'phone', 'imagename', 'imagedata', 'imagetype', 'cf_1050', 'cf_906', 'mailingstreet', 'mailingzip','mailingcity', 'mailingcountry', 'description'),
+		'contactFields' => array('firstname', 'lastname', 'email', 'secondaryemail', 'mobile', 'phone', 'imagename', 'imagedata', 'imagetype'),
 		'accountFields' => array('firstname', 'lastname', 'website', 'email1', 'phone', 'imagename', 'imagedata', 'imagetype', 'accountname'),);
 
 	public function process(Portal_Request $request) {

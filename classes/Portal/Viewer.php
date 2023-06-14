@@ -41,7 +41,7 @@ function portal_template_resolve($module, $file) {
 }
 
 function get_logo() {
-	return 'layouts/'.portal_layout().'/resources/images/logo_erfolg.svg';
+	return 'layouts/'.portal_layout().'/resources/images/application.png';
 }
 
 function portal_componentjs_class($module, $classPrefix) {
